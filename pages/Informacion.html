@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color:#f0f0f0;">
+    <nav class="navbar navbar-light" style="background-image: url(../img/fondo.jpg); color: #f0f0f0; height: 80px;">
+        <h2 class="mx-auto">Acerca de Recetas Culinarias</h2> 
+    </nav>
+    <div class="container my-5">
+        <h3 class="text-center mb-4">¿En qué podemos ayudarte?</h3>
+        <p class="text-center">Encuentra respuestas rápidas a tus dudas o contáctanos directamente para obtener soporte.</p>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Preguntas Comunes</h5>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    ¿Puedo sustituir ingredientes en una receta si no los tengo disponibles?
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                Sí, puedes sustituir ingredientes según lo que tengas, pero asegúrate de que la textura o sabor final sea compatible.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    ¿Cómo puedo adaptar una receta para hacerla más saludable?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Usa ingredientes bajos en grasa, reduce el azúcar, reemplaza harinas refinadas por integrales y opta por métodos de cocción más saludables.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    ¿Las recetas son aptas para personas con alergias alimentarias?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                Algunas recetas pueden incluir opciones para alergias comunes, pero siempre revisa los ingredientes y busca alternativas si es necesario.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>Si no encuentras tu respuesta aquí, no dudes en contactarnos.</p>
+            </div>
+
+            <!-- Botones -->
+            <div class="col-md-6 text-center">
+                <button class="btn btn-primary btn-lg mb-3" onclick="location.href='tel:+50485381625'">
+                    Contáctanos
+                </button>
+                <p><strong>Teléfono:</strong> +506 5555 5555</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5" id="referencias">
+        <h3 class="text-center">Referencias</h3>
+        <p class="text-center">Nuestro equipo está disponible para ayudarte en cualquier momento. Contáctanos a través
+            de nuestro número de soporte o consulta más detalles en las siguientes referencias.</p>
+        <ul>
+            <li>Soporte Técnico: +506 8888 8888</li>
+            <li>Horario de Atención: Lunes a Viernes, 8:00 AM - 6:00 PM</li>
+            <li>Correo Electrónico: soporte@recetasculinarias.com</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
